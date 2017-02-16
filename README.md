@@ -9,9 +9,11 @@ You can call this script after pusing your new docker with the same last tag.
 
 ## Update the global vars before running the script.
 
+```python
 AWS_ACCESS_KEY_ID = None;#####
 AWS_SECRET_ACCESS_KEY = None;####
 REGION_NAME = "eu-central-1"
 
 CLUSTER =  None # cluseter name
 SERVICES = [] 
+```
